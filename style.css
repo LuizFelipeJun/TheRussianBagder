@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+}
+
+#foto {
+    width: 30%;
+    height: 600px;
+    border-radius: 50%;
+}
+
+#perfil {
+    background: linear-gradient(#a7ff53 0%, #319c66 100%);
+    display:table;
+    height: 100%;
+    width: 100%;
+} 
+
+#caixa {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#biografia {
+    font-family: Arial;
+    padding: 5px;
+    height: auto;
+    background: linear-gradient(#319c66 0%, #a7ff53 100%);
+}
+
+#linha {
+    height: auto;
+    width: auto;
+}
+
+#menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer; /* modifica a imagem do cursor */
+}
+
+.links {
+    float: left;
+    padding : 9px;
+}
+
+h1 {
+    font-family: "Indie Flower";
+}
+
+a {
+    text-decoration: none;
+}
+
+#box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+iframe {
+    margin: 15px;
+}
+
+#video {
+    background: linear-gradient(#a7ff53 0%, #319c66 100%);
+    margin-top: 0px;
+}
+
+#contatos a{
+    margin-right: 40px;
+    color: rgb(255, 0, 0);
+}
+
+#contatos {
+    list-style: none;
+}
